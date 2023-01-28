@@ -1,4 +1,4 @@
-package com.demo.ExcelProject;
+package com.ScheduleUploader;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -100,7 +100,7 @@ public class OAuthHelper
 	{
 		HTTP_TRANSPORT = HTTP_TRANSPORT1;
 		// Load client secrets.
-		InputStream in = ScheduleReader.class.getResourceAsStream(CREDENTIALS_FILE_PATH);
+		InputStream in = ScheduleUploader.class.getResourceAsStream(CREDENTIALS_FILE_PATH);
 
 		if (in == null) 
 		{
